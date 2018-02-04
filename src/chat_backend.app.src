@@ -1,0 +1,19 @@
+{application, chat_backend,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { chat_backend_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    sasl,
+    cowboy,
+    jsx
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
